@@ -4,7 +4,7 @@ import random
 class Human:
     def __init__(self, name, prevLabs, submittingLabs, attended, current):
         try:
-            self.name = name.capitalize()
+            self.name = name.capitalize().split(maxsplit=1)[0]
             self.prevLabs = prevLabs
             self.submittingLabs = int(submittingLabs)
             self.attended = 0
