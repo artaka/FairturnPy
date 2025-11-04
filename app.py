@@ -67,6 +67,7 @@ if __name__ == "__main__":
 
                 case "0":
                     clear_console()
+                    print(center_text("Developed by artaka & m0loko"))
                     exit(0)
 
                 case _:
